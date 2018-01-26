@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/hotRecommend/hotRecommend",
+    "pages/vipRecommend/vipRecommend",
+    "pages/myself/myself"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "娱乐点评",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#ff0036",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/static/index.png",
+        "selectedIconPath": "pages/static/indexActive.png"
+      },
+      {
+        "pagePath": "pages/hotRecommend/hotRecommend",
+        "text": "热门推荐",
+        "iconPath": "pages/static/category.png",
+        "selectedIconPath": "pages/static/categoryActive.png"
+      },
+      {
+        "pagePath": "pages/vipRecommend/vipRecommend",
+        "text": "会员推荐",
+        "iconPath": "pages/static/orders.png",
+        "selectedIconPath": "pages/static/ordersActive.png"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "text": "我",
+        "iconPath": "pages/static/myself.png",
+        "selectedIconPath": "pages/static/myselfActive.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

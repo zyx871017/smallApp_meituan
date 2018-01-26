@@ -1,0 +1,155 @@
+/**index.wxss**/
+
+.topBar {
+  position: fixed;
+  height: 100rpx;
+  width: 100%;
+  background-color: #f8f8f8;
+  top: 0;
+  left: 0;
+  border-bottom: 1rpx solid #b8b8b8;
+  z-index: 99;
+}
+
+.searchInput {
+  background-color: #e3e7ea;
+  height: 62rpx;
+  width: 550rpx;
+  border-radius: 31rpx;
+  margin: 19rpx auto;
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 62rpx;
+  color: #9ea3a6;
+}
+
+.searchInput icon {
+  margin-right: 10rpx;
+  display: block;
+  position: absolute;
+  top: 33rpx;
+  left: 220rpx;
+}
+
+.filterContent {
+  z-index: 99;
+  height: 96rpx;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 102rpx;
+  left: 0;
+  border-bottom: 1rpx solid #b8b8b8;
+}
+
+.filterItem {
+  float: left;
+  width: 185rpx;
+  height: 100%;
+  text-align: center;
+  line-height: 96rpx;
+  color: #515151;
+  font-size: 30rpx;
+  position: relative;
+}
+
+.filterItem .tapArrow {
+  display: inline-block;
+  margin-top: 45rpx;
+  margin-left: 12rpx;
+  width: 4rpx;
+  line-height: 95rpx;
+  border-width: 4px;
+  border-color: #828282 transparent transparent transparent;
+  border-style: solid;
+  top: 45rpx;
+  right: 10rpx;
+}
+
+.divLine {
+  height: 54rpx;
+  margin: 21rpx 0;
+  width: 1rpx;
+  background-color: #e4e4e4;
+  float: left;
+}
+
+.cateBarContent {
+  height: 100rpx;
+  background-color: #f0f0f0;
+  padding-left: 10rpx;
+}
+
+.cateBarContent text {
+  width: 126rpx;
+  height: 74rpx;
+  background-color: #fff;
+  border-radius: 2rpx;
+  margin: 15rpx 5rpx;
+  display: block;
+  float: left;
+  line-height: 74rpx;
+  font-size: 30rpx;
+  text-align: center;
+}
+
+.listItem image {
+  width: 134rpx;
+  height: 134rpx;
+  margin: 24rpx;
+  float: left;
+}
+
+.listItem {
+  height: 186rpx;
+  border-bottom: 1rpx solid #9ea3a6;
+}
+
+.itemRightContent {
+  float: left;
+  height: 100%;
+  width: 544rpx;
+  padding: 24rpx 0;
+  box-sizing: border-box;
+}
+
+.itemRightContent .itemTitle {
+  font-size: 34rpx;
+  margin-bottom: 10rpx;
+  display: block;
+}
+
+.itemRightContent .itemStar {
+  height: 34rpx;
+  margin-bottom: 10rpx;
+}
+
+.itemRightContent .itemBottomContent {
+  font-size: 28rpx;
+  height: 40rpx;
+  width: 540rpx;
+}
+
+.itemRightContent .itemStar image {
+  width: 30rpx;
+  height: 30rpx;
+  margin: 0;
+  margin-right: 5rpx;
+}
+
+.itemRightContent .itemBottomContent .price {
+  float: left;
+  color: #189794;
+  display: block;
+  width: 300rpx;
+  height: 38rpx;
+}
+
+.itemRightContent .itemBottomContent .location {
+  float: right;
+  color: #828282;
+  display: block;
+  width: 200rpx;
+  text-align: right;
+  height: 38rpx;
+}

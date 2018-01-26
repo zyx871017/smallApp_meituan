@@ -1,0 +1,56 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="topBar">
+    <view class="searchInput" bindtap='openSearch'>
+      <icon size="14" type="search"></icon>
+      <text>搜索您喜欢的好物</text>
+    </view>
+  </view>
+  <view class="filterContent">
+    <view class="filterItem">
+      <text>火锅</text>
+      <view class="tapArrow"></view>
+    </view>
+    <view class="divLine"></view>
+    <view class="filterItem">
+      <text>附近</text>
+      <view class="tapArrow"></view>
+    </view>
+    <view class="divLine"></view>
+    <view class="divLine"></view>
+    <view class="filterItem">
+      <text>智能排序</text>
+      <view class="tapArrow"></view>
+    </view>
+    <view class="divLine"></view>
+    <view class="divLine"></view>
+    <view class="filterItem">
+      <text>筛选</text>
+      <view class="tapArrow"></view>
+    </view>
+  </view>
+  <scroll-view class="cateBarContent" scroll-x="true">
+    <text>川菜</text>
+    <text>鲁菜</text>
+    <text>粤菜</text>
+  </scroll-view>
+  <scroll-view class="indexList">
+    <view class="listItem">
+      <image src='/pages/static/test.jpg' class="itemImg"></image>
+      <view class="itemRightContent">
+        <text class="itemTitle">海底捞</text>
+        <view class="itemStar">
+          <image class="star" src='./../static/collection_fill.png'></image>
+          <image class="star" src='./../static/collection_fill.png'></image>
+          <image class="star" src='./../static/collection_fill.png'></image>
+          <image class="star" src='./../static/collection_fill.png'></image>
+          <image class="star" src='./../static/collection_fill.png'></image>
+        </view>
+        <view class="itemBottomContent">
+          <text class="price">100元起</text>
+          <text class="location">中关村 2.5KM</text>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>
