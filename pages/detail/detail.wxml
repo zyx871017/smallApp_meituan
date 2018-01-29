@@ -33,7 +33,7 @@
   <view class='comment'>
     <view class='comment_title'>
       <text class='comment_title_text'>网友点评</text>
-      <image class='comment_title_icon'></image>
+      <image src='./../static/forward.svg' class='comment_title_icon'></image>
     </view>
   </view>
 </scroll-view>

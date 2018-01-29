@@ -83,7 +83,7 @@ scroll-view {
   padding: 20rpx 26rpx;
 }
 
-.connection .location{
+.connection .location {
   height: 96rpx;
   width: 610rpx;
   float: left;
@@ -98,7 +98,7 @@ scroll-view {
   margin-right: 20rpx;
 }
 
-.connection .location .location_text{
+.connection .location .location_text {
   font-size: 24rpx;
   line-height: 44rpx;
   width: 560rpx;
@@ -107,7 +107,7 @@ scroll-view {
   float: left;
 }
 
-.connection .phone{
+.connection .phone {
   height: 62rpx;
   margin-top: 13rpx;
   border-left: 1rpx solid #ececec;
@@ -115,14 +115,14 @@ scroll-view {
   float: left;
 }
 
-.connection .phone image{
+.connection .phone image {
   width: 42rpx;
   height: 42rpx;
   margin: 10rpx auto;
   display: block;
 }
 
-.comment{
+.comment {
   width: 100%;
   padding-left: 36rpx;
   margin-top: 20rpx;
@@ -130,9 +130,23 @@ scroll-view {
   background-color: #fff;
 }
 
-.comment .comment_title{
+.comment .comment_title {
   border-bottom: 1rpx solid #ececec;
   height: 72rpx;
-  font-size: 30rpx;
+}
+
+.comment .comment_title .comment_title_text {
   line-height: 72rpx;
+  height: 72rpx;
+  font-size: 30rpx;
+  float: left;
+}
+
+.comment .comment_title .comment_title_icon{
+  display: block;
+  width: 28rpx;
+  height: 28rpx;
+  float: right;
+  margin-top: 22rpx;
+  margin-right: 30rpx;
 }
