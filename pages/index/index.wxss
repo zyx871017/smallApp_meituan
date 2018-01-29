@@ -8,7 +8,7 @@
   top: 0;
   left: 0;
   border-bottom: 1rpx solid #b8b8b8;
-  z-index: 99;
+  z-index: 20;
 }
 
 .searchInput {
@@ -32,7 +32,8 @@
 }
 
 .filterContent {
-  z-index: 99;
+  display: flex;
+  z-index: 20;
   height: 96rpx;
   width: 100%;
   background-color: #fff;
@@ -44,7 +45,7 @@
 
 .filterItem {
   float: left;
-  width: 185rpx;
+  flex: 1;
   height: 100%;
   text-align: center;
   line-height: 96rpx;
@@ -145,6 +146,10 @@
   height: 38rpx;
 }
 
+.indexList {
+  position: relative;
+}
+
 .itemRightContent .itemBottomContent .location {
   float: right;
   color: #828282;
@@ -152,4 +157,70 @@
   width: 200rpx;
   text-align: right;
   height: 38rpx;
+}
+
+.filter_type_content {
+  width: 100%;
+  display: flex;
+  height: 920rpx;
+  background-color: #fff;
+  z-index: 30;
+}
+
+.filter_type_back {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 200rpx;
+  left: 0;
+}
+
+.left_list_item {
+  width: 274rpx;
+  height: 84rpx;
+  line-height: 84rpx;
+  border-bottom: 1rpx solid #f5f5f5;
+  text-align: center;
+  font-size: 32rpx;
+}
+
+.filter_left_list {
+  width: 274rpx;
+}
+
+.filter_left_list .active {
+  background-color: #f5f5f5;
+  width: 274rpx;
+  color: #02b58f;
+}
+
+.filter_right_list {
+  background-color: #f5f5f5;
+  height: 100%;
+  flex: 1;
+}
+
+.indexList .hide {
+  display: none;
+}
+
+.distance_type {
+  display: flex;
+}
+
+.distance_type_item {
+  background-color: #fff;
+  border-right: 1rpx #e4e4e4 solid;
+  text-align: center;
+  height: 92rpx;
+  line-height: 92rpx;
+  flex: 1;
+  border-bottom: 0rpx transparent solid;
+  box-sizing: border-box;
+}
+
+.distance_type_item.active {
+  color: #02b58f;
+  border-bottom: 9rpx solid #02b58f;
 }

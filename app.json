@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/hotRecommend/hotRecommend",
     "pages/vipRecommend/vipRecommend",
-    "pages/myself/myself"
+    "pages/myself/myself",
+    "pages/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

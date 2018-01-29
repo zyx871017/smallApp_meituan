@@ -1,0 +1,39 @@
+<scroll-view>
+  <view class="banner">
+    <image src='./../static/meituan_banner.jpg' class='banner_image'></image>
+    <view class='banner_button'>
+      <image class='banner_button_icon' src='./../static/image.png'></image>
+      <text class='banner_button_text'>5张</text>
+    </view>
+  </view>
+  <view class='title'>
+    <view class='title_text'>生煎君.生煎包（五道口店）</view>
+    <view class='title_preme'>
+      <view class='star_arr'>
+        <image class="star" src='./../static/collection_fill.png'></image>
+        <image class="star" src='./../static/collection_fill.png'></image>
+        <image class="star" src='./../static/collection_fill.png'></image>
+        <image class="star" src='./../static/collection_fill.png'></image>
+        <image class="star" src='./../static/collection_fill.png'></image>
+      </view>
+      <view class='price_content'>人均：￥26</view>
+    </view>
+  </view>
+  <view class='connection'>
+    <view class='location'>
+      <image src='./../static/position.png'></image>
+      <view class='location_text'>
+      海淀区中关村东路8号1层59-A（东升大厦1层卜蜂莲花进门可见）
+      </view>
+    </view>
+    <view class='phone'>
+      <image src='./../static/phone-r.png'></image>
+    </view>
+  </view>
+  <view class='comment'>
+    <view class='comment_title'>
+      <text class='comment_title_text'>网友点评</text>
+      <image class='comment_title_icon'></image>
+    </view>
+  </view>
+</scroll-view>

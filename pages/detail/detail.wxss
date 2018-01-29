@@ -1,0 +1,138 @@
+/* pages/detail/detail.wxss */
+
+scroll-view {
+  background-color: #ececec;
+}
+
+.banner {
+  width: 100%;
+  height: 355rpx;
+  position: relative;
+}
+
+.banner image {
+  height: 100%;
+  width: 100%;
+}
+
+.banner .banner_button {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  right: 24rpx;
+  bottom: 24rpx;
+}
+
+.banner .banner_button .banner_button_icon {
+  width: 28rpx;
+  height: 28rpx;
+  display: block;
+  margin: 20rpx auto 0;
+}
+
+.banner .banner_button .banner_button_text {
+  font-size: 23rpx;
+  color: #fff;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.title {
+  width: 100%;
+  height: 160rpx;
+  border-bottom: 1rpx solid #ececec;
+  padding: 32rpx 28rpx;
+  background-color: #fff;
+}
+
+.title .title_text {
+  font-size: 34rpx;
+  line-height: 36rpx;
+}
+
+.title .title_preme {
+  height: 30rpx;
+  margin-top: 30rpx;
+}
+
+.title .title_preme .price_content {
+  font-size: 24rpx;
+  color: #797979;
+}
+
+.title .title_preme .star_arr {
+  height: 24rpx;
+  margin-top: 4rpx;
+  float: left;
+  margin-right: 12rpx;
+}
+
+.star {
+  width: 24rpx;
+  height: 24rpx;
+  float: left;
+  display: block;
+}
+
+.connection {
+  height: 136rpx;
+  background-color: #fff;
+  padding: 20rpx 26rpx;
+}
+
+.connection .location{
+  height: 96rpx;
+  width: 610rpx;
+  float: left;
+}
+
+.connection .location image {
+  width: 28rpx;
+  height: 32rpx;
+  margin-top: 32rpx;
+  display: block;
+  float: left;
+  margin-right: 20rpx;
+}
+
+.connection .location .location_text{
+  font-size: 24rpx;
+  line-height: 44rpx;
+  width: 560rpx;
+  padding-right: 34rpx;
+  display: block;
+  float: left;
+}
+
+.connection .phone{
+  height: 62rpx;
+  margin-top: 13rpx;
+  border-left: 1rpx solid #ececec;
+  width: 86rpx;
+  float: left;
+}
+
+.connection .phone image{
+  width: 42rpx;
+  height: 42rpx;
+  margin: 10rpx auto;
+  display: block;
+}
+
+.comment{
+  width: 100%;
+  padding-left: 36rpx;
+  margin-top: 20rpx;
+  border-top: 1rpx solid #ececec;
+  background-color: #fff;
+}
+
+.comment .comment_title{
+  border-bottom: 1rpx solid #ececec;
+  height: 72rpx;
+  font-size: 30rpx;
+  line-height: 72rpx;
+}

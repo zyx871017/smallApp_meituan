@@ -1,4 +1,5 @@
 <!--index.wxml-->
+<import src="./subPage/template.wxml"/>
 <view class="container">
   <view class="topBar">
     <view class="searchInput" bindtap='openSearch'>
@@ -35,7 +36,9 @@
     <text>粤菜</text>
   </scroll-view>
   <scroll-view class="indexList">
-    <view class="listItem">
+  <template is="filter_type"/>
+  <template is="filter_distance"/>
+    <view class="listItem" bindtap='nav_to_detail'>
       <image src='/pages/static/test.jpg' class="itemImg"></image>
       <view class="itemRightContent">
         <text class="itemTitle">海底捞</text>

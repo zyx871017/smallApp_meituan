@@ -1,0 +1,29 @@
+<template name="filter_type">
+  <view class='filter_type_back hide'>
+    <view class='filter_type_content'>
+      <scroll-view class='filter_left_list'>
+        <view class='left_list_item active'>川菜</view>
+        <view class='left_list_item'>寿司</view>
+      </scroll-view>
+      <scroll-view class='filter_right_list'>
+      </scroll-view>
+    </view>
+  </view>
+</template>
+
+<template name="filter_distance">
+  <view class='filter_type_back hide'>
+    <view class='distance_type'>
+      <text class='distance_type_item active'>商圈</text>
+      <text class='distance_type_item'>地铁</text>
+    </view>
+    <view class='filter_type_content'>
+      <scroll-view class='filter_left_list'>
+        <view class='left_list_item active'>川菜</view>
+        <view class='left_list_item'>寿司</view>
+      </scroll-view>
+      <scroll-view class='filter_right_list'>
+      </scroll-view>
+    </view>
+  </view>
+</template>
