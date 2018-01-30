@@ -30,7 +30,8 @@
 				{
 					"id": -1,
 					"name": "详情页",
-					"pathName": "pages/detail/detail"
+					"pathName": "pages/detail/detail",
+					"query": ""
 				}
 			]
 		}

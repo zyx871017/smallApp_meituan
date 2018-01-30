@@ -23,7 +23,7 @@
     <view class='location'>
       <image src='./../static/position.png'></image>
       <view class='location_text'>
-      海淀区中关村东路8号1层59-A（东升大厦1层卜蜂莲花进门可见）
+        海淀区中关村东路8号1层59-A（东升大厦1层卜蜂莲花进门可见）
       </view>
     </view>
     <view class='phone'>
@@ -34,6 +34,131 @@
     <view class='comment_title'>
       <text class='comment_title_text'>网友点评</text>
       <image src='./../static/forward.svg' class='comment_title_icon'></image>
+    </view>
+    <view class='comment_point'>
+      <view class='comment_total_point'>
+        <view class='comment_total_text'>
+          <text class='comment_total_big'>4.7</text>
+          <text class='comment_total_normal'>分 超级赞</text>
+        </view>
+        <view class='comment_total_compare'>高于94%同类酒店</view>
+      </view>
+      <view class='comment_point_arr'>
+        <view class='comment_line'>
+          <view class='comment_item'>
+            <text class='comment_item_title'>位置</text>
+            <view class='comment_item_bar'>
+              <view class='comment_item_bar_color'></view>
+            </view>
+            <text class='comment_item_point'>4.2</text>
+          </view>
+          <view class='comment_item'>
+            <text class='comment_item_title'>服务</text>
+            <view class='comment_item_bar'>
+              <view class='comment_item_bar_color'></view>
+            </view>
+            <text class='comment_item_point'>4.2</text>
+          </view>
+        </view>
+        <view class='comment_line'>
+          <view class='comment_item'>
+            <text class='comment_item_title'>设施</text>
+            <view class='comment_item_bar'>
+              <view class='comment_item_bar_color'></view>
+            </view>
+            <text class='comment_item_point'>4.2</text>
+          </view>
+          <view class='comment_item'>
+            <text class='comment_item_title'>卫生</text>
+            <view class='comment_item_bar'>
+              <view class='comment_item_bar_color'></view>
+            </view>
+            <text class='comment_item_point'>4.2</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='comment_tag'>
+      <image src='./../static/praise_fill.png' class='commetn_tag_icon'></image>
+      <view class='comment_tag_content'>
+        <text class='comment_tag_item'>服务热情(189)</text>
+        <text class='comment_tag_item'>环境优雅(155)</text>
+        <text class='comment_tag_item'>干净卫生(142)</text>
+        <text class='comment_tag_item'>性价比高(98)</text>
+        <text class='comment_tag_item'>位置好(96)</text>
+        <text class='comment_tag_item'>床舒服(73)</text>
+        <text class='comment_tag_item'>价格实惠(51)</text>
+      </view>
+    </view>
+    <view class='comment_personal_item'>
+      <image src='./../static/timg.jpg' class='user_avatar'></image>
+      <view class='comment_detail'>
+        <view class='user_date'>
+          <text class='user_name'>vileymin</text>
+          <view class='vip_icon'>VIP</view>
+          <text class='comment_date'>2017年12月13日</text>
+        </view>
+        <view class='user_point'>
+          <text class='user_point_text'>打分</text>
+          <view class='user_point_star_arr'>
+            <image class="star" src='./../static/collection_fill.png'></image>
+            <image class="star" src='./../static/collection_fill.png'></image>
+            <image class="star" src='./../static/collection_fill.png'></image>
+            <image class="star" src='./../static/collection_fill.png'></image>
+            <image class="star" src='./../static/collection_fill.png'></image>
+          </view>
+        </view>
+        <view class='comment_detail_text'>
+        这家酒店是回国下榻的第一家酒店，竟然忘记了拍照，忘记了拍照，可能是北京太冷了
+        </view>
+        <view class='comment_tag_text'>独自旅行</view>
+        <view class='comment_info_handle'>
+          <text class='comment_info_text'>浏览6984  赞3</text>
+          <view class='comment_button'>
+            <image src='./../static/message.png'></image>
+            <text>评论</text>
+          </view>
+          <view class='praise_button'>
+            <image src='./../static/like.png'></image>
+            <text>赞</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='comment_personal_item'>
+      <image src='./../static/timg.jpg' class='user_avatar'></image>
+      <view class='comment_detail'>
+        <view class='user_date'>
+          <text class='user_name'>vileymin</text>
+          <view class='vip_icon'>VIP</view>
+          <text class='comment_date'>2017年12月13日</text>
+        </view>
+        <view class='user_point'>
+          <text class='user_point_text'>打分</text>
+          <view class='user_point_star_arr'>
+            <image class="star" src='./../static/collection_fill.png'></image>
+            <image class="star" src='./../static/collection_fill.png'></image>
+            <image class="star" src='./../static/collection_fill.png'></image>
+            <image class="star" src='./../static/collection_fill.png'></image>
+            <image class="star" src='./../static/collection_fill.png'></image>
+          </view>
+        </view>
+        <view class='comment_detail_text'>
+        这家酒店是回国下榻的第一家酒店，竟然忘记了拍照，忘记了拍照，可能是北京太冷了
+        </view>
+        <view class='comment_tag_text'>独自旅行</view>
+        <view class='comment_info_handle'>
+          <text class='comment_info_text'>浏览6984  赞3</text>
+          <view class='comment_button'>
+            <image src='./../static/message.png'></image>
+            <text>评论</text>
+          </view>
+          <view class='praise_button'>
+            <image src='./../static/like.png'></image>
+            <text>赞</text>
+          </view>
+        </view>
+      </view>
     </view>
   </view>
 </scroll-view>
