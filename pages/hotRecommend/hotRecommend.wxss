@@ -1,1 +1,40 @@
-/* pages/hotRecommend/hotRecommend.wxss */
+.hot_recommend_content {
+  background-color: #e3e7ea;
+  width: 100%;
+  min-height: 100%;
+}
+
+.hot_recommend_item {
+  width: 688rpx;
+  height: 610rpx;
+  background-color: #fff;
+  margin: 34rpx auto;
+  border-radius: 10rpx;
+}
+
+.hot_recommend_item_image {
+  width: 688rpx;
+  height: 388rpx;
+  display: block;
+}
+
+.hot_recommend_item_view {
+  width: 100%;
+  height: 222rpx;
+  padding: 28rpx 34rpx;
+}
+
+.hot_recommend_item_title{
+  font-size: 36rpx;
+  display: block;
+  height: 36rpx;
+  margin-bottom: 20rpx;
+}
+
+.hot_recommend_item_text{
+  font-size: 26rpx;
+  display: block;
+  color: #7c7c7c;
+  height: 100rpx;
+  letter-spacing: 2rpx;
+}

@@ -1,2 +1,40 @@
-<!--pages/myself/myself.wxml-->
-<text>pages/myself/myself.wxml</text>
+<scroll-view class='myself_background'>
+  <view class='user_info_conetent'>
+    <image src='./../static/timg.jpg' class='user_avatar'></image>
+    <view class='user_info_middle'>
+      <view class='user_info_name'>
+        <text class='user_name_text'>奎罗</text>
+        <view class='vip_icon'>VIP1</view>
+      </view>
+      <view class='user_info_location'>上海 天秤座 男</view>
+    </view>
+    <view class='user_info_right'>
+      <view class='user_message'>
+        <image src='./../static/mail.png' class='user_message_icon'></image>
+        <view class='user_no_read'>9</view>
+      </view>
+      <view class='user_comment_history'>
+        <view class='user_history_text'>点评5</view>
+        <view class='comment_arrow'></view>
+      </view>
+    </view>
+  </view>
+  <view class='user_active_content'>
+    <view class='user_active_item'>
+      <text class='user_active_title'>会员等级</text>
+      <image src='./../static/forward.svg' class='user_active_icon'></image>
+    </view>
+    <view class='user_active_item'>
+      <text class='user_active_title'>联系客服</text>
+      <image src='./../static/forward.svg' class='user_active_icon'></image>
+    </view>
+    <view class='user_active_item'>
+      <text class='user_active_title'>商业合作</text>
+      <image src='./../static/forward.svg' class='user_active_icon'></image>
+    </view>
+    <view class='user_active_item'>
+      <text class='user_active_title'>用户反馈</text>
+      <image src='./../static/forward.svg' class='user_active_icon'></image>
+    </view>
+  </view>
+</scroll-view>

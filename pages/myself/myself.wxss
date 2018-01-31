@@ -1,1 +1,159 @@
-/* pages/myself/myself.wxss */
+.container {
+  height: 100%;
+}
+
+.myself_background {
+  background-color: #e3e7ea;
+  height: 100%;
+}
+
+.user_info_conetent {
+  width: 100%;
+  height: 270rpx;
+  background: linear-gradient(to bottom right, #cbaa6c, #a27731);
+}
+
+.user_info_conetent .user_avatar {
+  width: 122rpx;
+  height: 122rpx;
+  border-radius: 50%;
+  border: 1rpx solid #fff;
+  margin: 84rpx 32rpx 0 72rpx;
+  display: block;
+  float: left;
+}
+
+.user_info_conetent .user_info_right {
+  width: 126rpx;
+  height: 100%;
+  float: right;
+}
+
+.user_info_conetent .user_info_middle {
+  width: 394rpx;
+  height: 268rpx;
+  float: left;
+}
+
+.user_message_icon {
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.user_info_conetent .user_info_middle .user_info_name {
+  font-size: 34rpx;
+  color: #fff;
+  height: 44rpx;
+  margin-top: 96rpx;
+  width: 200rpx;
+}
+
+.user_info_conetent .user_info_middle .user_info_location {
+  font-size: 24rpx;
+  color: #f8d69e;
+  margin-top: 22rpx;
+}
+
+.user_info_conetent .user_info_name .user_name_text {
+  font-size: 34rpx;
+  display: inline-block;
+  margin-right: 10rpx;
+}
+
+.user_info_conetent .user_info_name .vip_icon {
+  display: inline-block;
+  width: 52rpx;
+  height: 28rpx;
+  font-size: 16rpx;
+  line-height: 28rpx;
+  background-color: #fabc00;
+  text-align: center;
+  border-radius: 3rpx;
+}
+
+.user_info_conetent .user_info_right {
+  width: 124rpx;
+  height: 100%;
+}
+
+.user_info_conetent .user_info_right .user_message {
+  width: 100%;
+  height: 68rpx;
+  padding-top: 26rpx;
+  padding-left: 56rpx;
+  position: relative;
+}
+
+.user_info_conetent .user_info_right .user_no_read {
+  font-size: 14rpx;
+  width: 34rpx;
+  height: 34rpx;
+  border-radius: 50%;
+  background-color: #ff4321;
+  color: #fff;
+  border: 1rpx solid #fff;
+  line-height: 34rpx;
+  text-align: center;
+  position: absolute;
+  top: 14rpx;
+  right: 9rpx;
+}
+
+.user_info_conetent .user_info_right .user_comment_history {
+  width: 124rpx;
+  height: 56rpx;
+  border-radius: 28rpx 0 0 28rpx;
+  background-color: #dcab59;
+  font-size: 22rpx;
+  padding-left: 22rpx;
+  line-height: 56rpx;
+  color: #fff;
+  letter-spacing: 4rpx;
+  margin-top: 72rpx;
+}
+
+.user_info_conetent .user_info_right .user_history_text {
+  float: left;
+  width: 80rpx;
+}
+
+.user_info_conetent .user_info_right .comment_arrow {
+  width: 16rpx;
+  height: 16rpx;
+  border-color: transparent transparent transparent #fff;
+  border-width: 8rpx;
+  border-style: solid;
+  margin-top: 20rpx;
+  float: left;
+}
+
+.user_active_content {
+  width: 100%;
+  height: 400rpx;
+  background-color: #fff;
+  margin-top: 26rpx;
+  padding-left: 30rpx;
+}
+
+.user_active_content .user_active_item {
+  height: 100rpx;
+  border-bottom: 1rpx solid #ececec;
+}
+
+.user_active_content .user_active_title {
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 28rpx;
+  display: block;
+  float: left;
+  margin-left: 18rpx;
+}
+
+.user_active_content .user_active_icon {
+  width: 22rpx;
+  height: 22rpx;
+  float: right;
+  display: block;
+  margin-top: 40rpx;
+  margin-right: 30rpx;
+}
