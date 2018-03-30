@@ -38,7 +38,7 @@
   width: 100%;
   background-color: #fff;
   position: fixed;
-  top: 102rpx;
+  top: 0rpx;
   left: 0;
   border-bottom: 1rpx solid #b8b8b8;
 }
