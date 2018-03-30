@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<import src="./subPage/template.wxml"/>
+<import src="./subPage/template.wxml" />
 <view class="container">
   <view class="topBar">
     <view class="searchInput" bindtap='openSearch'>
@@ -8,12 +8,12 @@
     </view>
   </view>
   <view class="filterContent">
-    <view class="filterItem">
+    <view bindtap="type_select" class="filterItem">
       <text>火锅</text>
       <view class="tapArrow"></view>
     </view>
     <view class="divLine"></view>
-    <view class="filterItem">
+    <view bindtap="distance_select" class="filterItem">
       <text>附近</text>
       <view class="tapArrow"></view>
     </view>
@@ -36,8 +36,30 @@
     <text>粤菜</text>
   </scroll-view>
   <scroll-view class="indexList">
-  <template is="filter_type"/>
-  <template is="filter_distance"/>
+    <view class="filter_type_back {{type_select?'':'hide'}}">
+      <view class='filter_type_content '>
+        <scroll-view class='filter_left_list '>
+          <view class='left_list_item active '>川菜</view>
+          <view class='left_list_item '>寿司</view>
+        </scroll-view>
+        <scroll-view class='filter_right_list '>
+        </scroll-view>
+      </view>
+    </view>
+    <view class="filter_type_back {{distance_type?'':'hide'}}">
+      <view class='distance_type '>
+        <text class='distance_type_item active '>商圈</text>
+        <text class='distance_type_item '>地铁</text>
+      </view>
+      <view class='filter_type_content '>
+        <scroll-view class='filter_left_list '>
+          <view class='left_list_item active '>川菜</view>
+          <view class='left_list_item '>寿司</view>
+        </scroll-view>
+        <scroll-view class='filter_right_list '>
+        </scroll-view>
+      </view>
+    </view>
     <view class="listItem" bindtap='nav_to_detail'>
       <image src='/pages/static/test.jpg' class="itemImg"></image>
       <view class="itemRightContent">

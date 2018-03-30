@@ -7,12 +7,20 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
+    type_select: false,
+    distance_type: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
-  //事件处理函数
-  bindViewTap: function () {
-    wx.navigateTo({
-      url: '../logs/logs'
+  distance_select: function () {
+    const select = !this.data.distance_type;
+    this.setData({
+      distance_type: select
+    })
+  },
+  type_select: function () {
+    const select = !this.data.type_select;
+    this.setData({
+      type_select: select
     })
   },
   nav_to_detail: function () {
