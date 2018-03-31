@@ -8,6 +8,7 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     type_select: false,
+    sort_select: true,
     distance_type: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },

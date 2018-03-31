@@ -30,6 +30,18 @@
     <text>粤菜</text>
   </scroll-view>
   <scroll-view class="indexList">
+    <view class="filter_type_back {{sort_select?'':'hide'}}">
+      <view class='sort_select_content'>
+        <view>
+          <view>离我最近</view>
+          <view>好评优先</view>
+          <view>最新发布</view>
+          <view>人气优先</view>
+          <view>价格最低</view>
+          <view>价格最高</view>
+        </view>
+      </view>
+    </view>
     <view class="filter_type_back {{type_select?'':'hide'}}">
       <view class='filter_type_content '>
         <scroll-view class='filter_left_list '>

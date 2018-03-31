@@ -172,7 +172,7 @@
   width: 100%;
   height: 100%;
   position: fixed;
-  top: 200rpx;
+  top: 96rpx;
   left: 0;
 }
 
